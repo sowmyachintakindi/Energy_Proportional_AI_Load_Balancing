@@ -1,0 +1,11 @@
+Algorithm,Workload,Energy (kWh),Latency p95 (ms),Throughput (req/s),CPU Usage (%),L4 Usage (%),H100 Usage (%)
+EPLB,Sinusoidal,38.98,18.8,1001.3,0.0,94.1,5.9
+EPLB,Spiky,44.33,18.8,724.3,0.6,81.3,18.0
+RoundRobin,Sinusoidal,86.21,95.0,1002.3,25.0,37.5,37.5
+RoundRobin,Spiky,79.95,144.28,768.9,25.0,37.5,37.5
+LeastConnections,Sinusoidal,86.53,95.0,997.2,25.0,37.5,37.5
+LeastConnections,Spiky,77.55,143.16,726.3,24.9,37.6,37.5
+ThermalAware,Sinusoidal,160.24,446.5,1000.4,74.4,25.6,0.0
+ThermalAware,Spiky,130.24,446.5,772.1,71.7,21.2,7.1
+PathBased,Sinusoidal,83.04,95.0,1000.9,25.0,45.0,30.0
+PathBased,Spiky,74.86,142.95,725.6,25.0,45.0,30.0

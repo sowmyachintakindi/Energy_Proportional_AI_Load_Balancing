@@ -1,0 +1,4 @@
+Instance Type,Pool Size,Capacity per Instance (req/s),Total Pool Capacity (req/s),Idle Power (W),Active Power (W),Base Latency (ms),Energy per Inference (Wh)
+CPU (AWS m7i.xlarge),20,50,1000,25,75,95.0,1.98e-03
+L4 (NVIDIA L4),10,150,1500,72,72,4.0,8.00e-05
+H100 (NVIDIA H100),5,300,1500,150,700,1.5,2.92e-04
